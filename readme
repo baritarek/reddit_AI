@@ -1,7 +1,0 @@
--To run q1 to  q2.4 simply step through the proj.ipynb notebook but avoid the blocks with gridsearches as I used those to find best parameters which I trained the models with
-with (you can run these blocks as i passed the values as parameters to train the model as i did not want to explicitly gridsearch everytime while working on the project as I already found the parameters before hand)
-meaning you have the chance of running gridsearch again and using the values you find to replace the ones i hardcoded by playing the grid search blocks or trust the ones I found as legitimate and only train the classifiers with cv variable name
-- we wrote a utility function that for q1 to 2.4 appends to a file called performance which I included the classification report and matrix and after playin through the notebook
-you should have all the models and result appended to the file (you might want to clear the file before rerunnig if you wish to overwrite my reports)
-- For some mlp with no max_iter set you might want to stop training early so as not to waste your time
-- 
