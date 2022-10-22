@@ -687,7 +687,7 @@ negative         251      4012     2238      1273
 neutral          498      2055     5854      2660
 positive         214      1088     2484      7966
 
-cv_mlp_model_sentiments_activation=TANH,hidden_layer_sizes=(30,50)_fasttext-wiki-news-subwords-300
+cv_mlp_model_emotions_activation=TANH,hidden_layer_sizes=(30,50)_fasttext-wiki-news-subwords-300
 
                 precision    recall  f1-score   support
 
@@ -773,7 +773,7 @@ negative         310      4064     2441       959
 neutral          738      2103     6098      2128
 positive         250      1198     2791      7513
 
-cv_mlp_model_sentiments_activation=tanh,hidden_layer_sizes=(30,50)_glove_twitter
+cv_mlp_model_emotions_activation=tanh,hidden_layer_sizes=(30,50)_glove_twitter
 
                 precision    recall  f1-score   support
 
